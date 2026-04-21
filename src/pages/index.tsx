@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import HeroSection from "@/components/HeroSection";
-import ProductCard from "@/components/ProductCard";
-import AttendantModal from "@/components/AttendantModal";
+import HeroSection from "../components/HeroSection";
+import ProductCard from "../components/ProductCard";
+import AttendantModal from "../components/AttendantModal";
 
 import product1 from "@/assets/product-1.jpg";
 import product2 from "@/assets/product-2.jpg";
