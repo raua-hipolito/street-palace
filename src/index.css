@@ -13,17 +13,17 @@
   --secondary-foreground: hsl(40 15% 80%);
   --muted: hsl(220 10% 16%);
   --muted-foreground: hsl(220 8% 55%);
-  --accent: hsl(38 65% 50%);
+  --accent: hsl(0, 8%, 10%);
   --accent-foreground: hsl(220 15% 5%);
   --destructive: hsl(0 84.2% 60.2%);
   --destructive-foreground: hsl(210 40% 98%);
   --border: hsl(220 10% 18%);
   --input: hsl(220 10% 18%);
-  --ring: hsl(38 65% 50%);
+  --ring: hsl(0, 65%, 50%);
   --radius: 0.75rem;
-  --gold: hsl(38 65% 50%);
-  --gold-light: hsl(42 55% 65%);
-  --gold-glow: hsl(38 80% 45%);
+  --gold: hsl(38, 100%, 47%);
+  --gold-light: hsla(243, 100%, 50%, 0.723);
+  --gold-glow: hsl(38, 100%, 47%);
   --cream: hsl(40 20% 90%);
   --charcoal: hsl(220 15% 5%);
   --surface: hsl(220 12% 14%);
@@ -31,7 +31,7 @@
   --success: hsl(142 64% 48%);
   --shadow-soft: 0 20px 60px hsl(220 15% 5% / 0.4);
   --shadow-gold: 0 0 30px hsl(38 65% 50% / 0.12);
-  --gradient-gold: linear-gradient(135deg, hsl(42 55% 65%), hsl(38 65% 50%), hsl(32 70% 45%));
+  --gradient-gold: linear-gradient(135deg, #767a74, #00e676, #1b5e20);
   --gradient-line: linear-gradient(90deg, transparent, hsl(38 65% 50% / 0.4), transparent);
 }
 
@@ -98,7 +98,7 @@ p {
 }
 
 ::selection {
-  background: hsl(38 65% 50% / 0.3);
+  background: hsla(224, 76%, 37%, 0.723);
 }
 
 .site-shell {
@@ -199,7 +199,7 @@ p {
 }
 
 .hero-section__gradient--vertical {
-  background: linear-gradient(180deg, transparent, hsl(220 15% 8% / 0.28), hsl(220 15% 8%));
+  background: linear-gradient(180deg, transparent, hsla(222, 10%, 20%, 0.28), hsl(220 15% 8%));
 }
 
 .hero-section__gradient--top {
@@ -216,10 +216,10 @@ p {
 
 .hero-section__particle {
   position: absolute;
-  width: 0.25rem;
-  height: 0.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
   border-radius: 999px;
-  background: hsl(38 65% 50% / 0.3);
+  background: hsl(0, 0%, 100%);
 }
 
 .hero-section__content {
@@ -270,8 +270,8 @@ p {
   margin-top: 2rem;
   padding: 0.95rem 2rem;
   border-radius: 0.9rem;
-  border: 1px solid hsl(38 65% 50% / 0.28);
-  background: hsl(38 65% 50% / 0.92);
+  border: 1px solid hsla(0, 100%, 43%, 0.28);
+  background: hsla(243, 90%, 60%, 0.723);
   color: var(--primary-foreground);
   font-weight: 500;
   transition: transform 500ms ease, box-shadow 500ms ease, background-color 300ms ease;

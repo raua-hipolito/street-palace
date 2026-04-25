@@ -51,7 +51,7 @@ const Index = () => {
                         className="catalog-brand gradient-text"
                         whileHover={{ scale: 1.05 }}
                     >
-                        ÓpticaLux
+                        StreetPalace
                     </motion.h2>
                     <nav className="catalog-nav">
                         {["Catálogo", "Atendimento"].map((link, i) => (
