@@ -22,7 +22,7 @@
   --ring: hsl(0, 65%, 50%);
   --radius: 0.75rem;
   --gold: hsl(38, 100%, 47%);
-  --gold-light: hsla(243, 100%, 50%, 0.723);
+  --gold-light: hsl(0, 100%, 50%);
   --gold-glow: hsl(38, 100%, 47%);
   --cream: hsl(40 20% 90%);
   --charcoal: hsl(220 15% 5%);
