@@ -1,31 +1,31 @@
 import { useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import attendant1 from "@/assets/attendant-1.jpg";
+// import attendant1 from "@/assets/attendant-1.jpg";
 import attendant2 from "@/assets/attendant-2.jpg";
-import attendant3 from "@/assets/attendant-3.jpg";
+// import attendant3 from "@/assets/attendant-3.jpg";
 
 const attendants = [
+    // {
+    //     name: "Ana Paula",
+    //     specialty: "Óculos de Sol",
+    //     phone: "5511999990001",
+    //     image: attendant1,
+    //     description: "Especialista em óculos de sol e tendências de moda.",
+    // },
     {
-        name: "Ana Paula",
-        specialty: "Óculos de Sol",
-        phone: "5511999990001",
-        image: attendant1,
-        description: "Especialista em óculos de sol e tendências de moda.",
-    },
-    {
-        name: "Carlos Eduardo",
-        specialty: "Óculos de Grau",
-        phone: "5511999990002",
+        name: "Caio Ferreira",
+        specialty: "Atendente",
+        phone: "559184078927",
         image: attendant2,
         description: "Expert em lentes e armações de grau para seu conforto.",
     },
-    {
-        name: "Márcia Helena",
-        specialty: "Consultoria Premium",
-        phone: "5511999990003",
-        image: attendant3,
-        description: "Atendimento VIP com consultoria personalizada de estilo.",
-    },
+    // {
+    //     name: "Márcia Helena",
+    //     specialty: "Consultoria Premium",
+    //     phone: "5511999990003",
+    //     image: attendant3,
+    //     description: "Atendimento VIP com consultoria personalizada de estilo.",
+    // },
 ];
 
 interface AttendantModalProps {
