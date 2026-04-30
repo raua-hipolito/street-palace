@@ -11,9 +11,9 @@ import product4 from "@/assets/product-4.jpg";
 import product5 from "@/assets/product-5.jpg";
 import product6 from "@/assets/product-6.jpg";
 import product7 from "@/assets/product-7.jpg";
-// import att1 from "@/assets/attendant-1.jpg";
+import att1 from "@/assets/attendant-1.jpg";
 import att2 from "@/assets/attendant-2.jpg";
-// import att3 from "@/assets/attendant-3.jpg";
+import att3 from "@/assets/attendant-3.jpg";
 
 const products = [
     { id: 1, image: product1, name: "Juliet 24K - Lente Torch Proteção UV400", category: "Juliet", price: "R$ 130,00" },
@@ -26,9 +26,9 @@ const products = [
 ];
 
 const attendantsList = [
-    // { name: "Ana Paula", role: "Atendente", img: att1 },
+    { name: "Walberson Junior", role: "Atendente", img: att1 },
     { name: "Caio Ferreira", role: "Atendente", img: att2 },
-    // { name: "Márcia Helena", role: "Consultoria Premium", img: att3 },
+    { name: "Marcos João", role: "Atendente", img: att3 },
 ];
 
 const Index = () => {
