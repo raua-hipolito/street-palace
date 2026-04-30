@@ -22,7 +22,7 @@ const attendants = [
     {
         name: "Marcos João",
         specialty: "Atendente",
-        phone: "55186194804",
+        phone: "559186194804",
         image: attendant3,
         description: "Expert em lentes e armações de grau para seu conforto.",
     },
