@@ -76,7 +76,7 @@ const HeroSection = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.8 }}
                 >
-                    Modelos estilosos pra elevar seu visual — atitude, presença e aquele toque de ousadia.
+                    Descubra nossa seleção exclusiva de armações e óculos de sol das melhores marcas do mundo.
                 </motion.p>
 
                 <motion.a
