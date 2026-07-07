@@ -100,7 +100,7 @@ const Index = () => {
                         className="catalog-brand gradient-text"
                         whileHover={{ scale: 1.05 }}
                     >
-                        ÓpticaLux
+                        Street Palace
                     </motion.h2>
                     <nav className="catalog-nav">
                         {["Catálogo", "Atendimento"].map((link, i) => (
@@ -275,8 +275,8 @@ const Index = () => {
                 transition={{ duration: 1 }}
             >
                 <div className="catalog-footer__inner container-shell">
-                    <span className="catalog-footer__brand gradient-text">ÓpticaLux</span>
-                    <span className="catalog-footer__copy">© 2026 ÓpticaLux. Todos os direitos reservados.</span>
+                    <span className="catalog-footer__brand gradient-text">    Street Palace</span>
+                    <span className="catalog-footer__copy">© 2026     Street Palace. Todos os direitos reservados.</span>
                 </div>
             </motion.footer>
 
